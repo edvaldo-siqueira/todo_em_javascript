@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@600&family=Roboto:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    outline: none;
+}
+
+/* ajustando bady*/
+
+/*estilo layout*/
+.container {
+    background-color: black;
+    width: 600px;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px auto 0;
+}
+
+img {
+    height: 25px;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.input-t {
+    border: none;
+    border-radius: 5px;
+    width: 300px;
+    height: 40px;
+    padding-left: 10px;
+}
+
+.input-b {
+    border: none;
+    border-radius: 5px;
+    height: 40px;
+    background-color: green;
+    color: aliceblue;
+    font-size: 18px;
+    padding: 0px 15px;
+    float: right;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.input-b:hover {
+    opacity: 0.8;
+}
+
+.input-b:active {
+    opacity: 0.6;
+}
+
+.list-lista {
+    width: 100%;
+    list-style: none;
+    margin-top: 25px;
+}
+
+.task-a {
+    background-color: white;
+    box-shadow: 1px 4px 10px rgba(0, 0, 0, 0.2);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.task-a:hover img{
+    opacity: 1;
+}
+
+.done {
+    background-color: #8fac55;
+    
+}
